@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(201, 198, 194);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.receita-completa {
+    max-width: 700px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 1%;
+    padding: 20px;
+    margin: 30px;
+}
+
+.receita-completa img {
+    max-width: 650px;
+    padding: 15px;
+}
+
+.receita-completa .informacoes-iniciais {
+    max-width: 600px;
+    text-align: left;
+    align-items: center;
+    margin: 30px;
+}
+
+.tempo-preparacao {
+    background-color: rgb(245, 232, 255);
+    max-width: 500px;
+    text-align: left;
+    margin: 30px;
+    padding: 0.06px;
+}
+
+.ingredientes {
+    max-width: 600px;
+    text-align: left;
+    align-items: center;
+    margin: 30px;
+}
+
+.receita {
+    max-width: 600px;
+    text-align: left;
+    align-items: center;
+    margin: 30px;
+}
+
+.nutricao h1,
+.paragrafo {
+    text-align: left;
+    margin: 30px;
+}
+
+.nutricao div p {
+    text-align: left;
+}
+
+.um {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+
+}
+
+.dois {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.tres {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.quatro {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.informacoes-iniciais p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.informacoes-iniciais h1 {
+    font-size: 50px;
+}
+
+.tempo-preparacao {
+    font-family: sans-serif;
+}
+
+.tempo-preparacao h1 {
+    color: rgb(100, 16, 117);
+    font-size: 20px;
+}
+
+.tempo-preparacao ul li {
+    font-size: 15px;
+    color: rgb(100, 16, 117);
+
+}
+
+.ingredientes h1,
+.receita h1,
+.nutricao h1 {
+    font-size: 35px;
+    color: rgb(165, 77, 42);
+}
+
+.tempo-preparacao ul li p {
+    color: black;
+}
+
+.ingredientes ul li {
+    color: rgb(165, 77, 42);
+}
+
+.ingredientes ul li p {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.receita ol li {
+    color: rgb(165, 77, 42);
+}
+
+.receita ol li p {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.nutricao p,
+.nutricao h5 {
+    font-family: sans-serif;
+}
+
+.nutricao h5 {
+    color: rgb(165, 77, 42);
+}
